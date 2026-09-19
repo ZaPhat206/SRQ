@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "experiment": "budget_sensitivity",
+  "source": "train-only RanPAC/CIFAR-100 validation streams",
+  "uses_test_set": false,
+  "exact_upper_triangle_reference_mb": 877.5,
+  "units": [
+    {"stream_id":"s2025","class_order_seed":2025,"split_seed":2025,"projection_seed":2025,"beta":0.0,"exact_validation_aia_percent":92.64287301587301,"validation_aia_percent":92.38702777777777,"final_total_persistent_bytes":290012936},
+    {"stream_id":"s2025","class_order_seed":2025,"split_seed":2025,"projection_seed":2025,"beta":0.05,"exact_validation_aia_percent":92.64287301587301,"validation_aia_percent":92.65685317460319,"final_total_persistent_bytes":299382760},
+    {"stream_id":"s2025","class_order_seed":2025,"split_seed":2025,"projection_seed":2025,"beta":0.1,"exact_validation_aia_percent":92.64287301587301,"validation_aia_percent":92.64821428571429,"final_total_persistent_bytes":308759680},
+    {"stream_id":"s2025","class_order_seed":2025,"split_seed":2025,"projection_seed":2025,"beta":0.25,"exact_validation_aia_percent":92.64287301587301,"validation_aia_percent":92.64693253968254,"final_total_persistent_bytes":336883120},
+    {"stream_id":"s2025","class_order_seed":2025,"split_seed":2025,"projection_seed":2025,"beta":0.5,"exact_validation_aia_percent":92.64287301587301,"validation_aia_percent":92.65222619047618,"final_total_persistent_bytes":383752480},
+    {"stream_id":"s2025","class_order_seed":2025,"split_seed":2025,"projection_seed":2025,"beta":1.0,"exact_validation_aia_percent":92.64287301587301,"validation_aia_percent":92.64392063492065,"final_total_persistent_bytes":477503560},
+    {"stream_id":"s2026","class_order_seed":2026,"split_seed":2026,"projection_seed":2026,"beta":0.0,"exact_validation_aia_percent":92.72254365079365,"validation_aia_percent":92.38089285714285,"final_total_persistent_bytes":290012936},
+    {"stream_id":"s2026","class_order_seed":2026,"split_seed":2026,"projection_seed":2026,"beta":0.05,"exact_validation_aia_percent":92.72254365079365,"validation_aia_percent":92.7044246031746,"final_total_persistent_bytes":299382760},
+    {"stream_id":"s2026","class_order_seed":2026,"split_seed":2026,"projection_seed":2026,"beta":0.1,"exact_validation_aia_percent":92.72254365079365,"validation_aia_percent":92.72546031746032,"final_total_persistent_bytes":308759680},
+    {"stream_id":"s2026","class_order_seed":2026,"split_seed":2026,"projection_seed":2026,"beta":0.25,"exact_validation_aia_percent":92.72254365079365,"validation_aia_percent":92.72825,"final_total_persistent_bytes":336883120},
+    {"stream_id":"s2026","class_order_seed":2026,"split_seed":2026,"projection_seed":2026,"beta":0.5,"exact_validation_aia_percent":92.72254365079365,"validation_aia_percent":92.71951587301587,"final_total_persistent_bytes":383752720},
+    {"stream_id":"s2026","class_order_seed":2026,"split_seed":2026,"projection_seed":2026,"beta":1.0,"exact_validation_aia_percent":92.72254365079365,"validation_aia_percent":92.7168373015873,"final_total_persistent_bytes":477503560},
+    {"stream_id":"s2027","class_order_seed":2027,"split_seed":2027,"projection_seed":2027,"beta":0.0,"exact_validation_aia_percent":93.31657142857144,"validation_aia_percent":93.05159523809525,"final_total_persistent_bytes":290012936},
+    {"stream_id":"s2027","class_order_seed":2027,"split_seed":2027,"projection_seed":2027,"beta":0.05,"exact_validation_aia_percent":93.31657142857144,"validation_aia_percent":93.30789285714286,"final_total_persistent_bytes":299382760},
+    {"stream_id":"s2027","class_order_seed":2027,"split_seed":2027,"projection_seed":2027,"beta":0.1,"exact_validation_aia_percent":93.31657142857144,"validation_aia_percent":93.31004761904762,"final_total_persistent_bytes":308759680},
+    {"stream_id":"s2027","class_order_seed":2027,"split_seed":2027,"projection_seed":2027,"beta":0.25,"exact_validation_aia_percent":93.31657142857144,"validation_aia_percent":93.32010317460318,"final_total_persistent_bytes":336883000},
+    {"stream_id":"s2027","class_order_seed":2027,"split_seed":2027,"projection_seed":2027,"beta":0.5,"exact_validation_aia_percent":93.31657142857144,"validation_aia_percent":93.32085317460317,"final_total_persistent_bytes":383752720},
+    {"stream_id":"s2027","class_order_seed":2027,"split_seed":2027,"projection_seed":2027,"beta":1.0,"exact_validation_aia_percent":93.31657142857144,"validation_aia_percent":93.31774206349206,"final_total_persistent_bytes":477503560}
+  ]
+}

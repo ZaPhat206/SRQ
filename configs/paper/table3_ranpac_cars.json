@@ -1,0 +1,79 @@
+{
+ "experiment": "table3_ranpac_cars",
+ "dataset": "cars",
+ "class_increments": [
+  16,
+  20,
+  20,
+  20,
+  20,
+  20,
+  20,
+  20,
+  20,
+  20
+ ],
+ "widths": [
+  10000
+ ],
+ "methods": [
+  "exact",
+  "srq_int8",
+  "srq_adaptive"
+ ],
+ "budget_fraction": 0.25,
+ "ridge_grid": [
+  1e-08,
+  1e-07,
+  1e-06,
+  1e-05,
+  0.0001,
+  0.001,
+  0.01,
+  0.1,
+  1.0,
+  10.0,
+  100.0,
+  1000.0,
+  10000.0,
+  100000.0,
+  1000000.0,
+  10000000.0,
+  100000000.0
+ ],
+ "ridge_fit_fraction": 0.8,
+ "encode_batch_size": 192,
+ "evaluation_batch_size": 192,
+ "replicates": [
+  {
+   "class_order_seed": 1993,
+   "projection_seed": 1993,
+   "ridge_split_seed": 1993
+  },
+  {
+   "class_order_seed": 1994,
+   "projection_seed": 1994,
+   "ridge_split_seed": 1994
+  },
+  {
+   "class_order_seed": 1995,
+   "projection_seed": 1995,
+   "ridge_split_seed": 1995
+  },
+  {
+   "class_order_seed": 1996,
+   "projection_seed": 1996,
+   "ridge_split_seed": 1996
+  },
+  {
+   "class_order_seed": 1997,
+   "projection_seed": 1997,
+   "ridge_split_seed": 1997
+  },
+  {
+   "class_order_seed": 1998,
+   "projection_seed": 1998,
+   "ridge_split_seed": 1998
+  }
+ ]
+}

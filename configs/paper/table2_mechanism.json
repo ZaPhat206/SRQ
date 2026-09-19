@@ -1,0 +1,25 @@
+{
+ "experiment": "table2_mechanism",
+ "dataset": "cifar100",
+ "num_tasks": 10,
+ "seed": 2025,
+ "validation_fraction": 0.2,
+ "width": 10000,
+ "projection_seed": 2025,
+ "synaptic_degree": 300,
+ "coding_level": 0.3,
+ "block_size": 256,
+ "group_size": 64,
+ "panel_size": 128,
+ "encode_batch_size": 256,
+ "evaluation_batch_size": 256,
+ "ridge_lambda": 1000000.0,
+ "methods": [
+  "exact",
+  "int8_gram",
+  "int8_gram_certified",
+  "int8_gram_minimal",
+  "srq_fp16",
+  "srq_int8"
+ ]
+}

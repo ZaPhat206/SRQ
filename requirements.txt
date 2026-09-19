@@ -1,0 +1,7 @@
+torch==2.11.0
+torchvision==0.26.0
+timm==0.9.16
+safetensors>=0.4.5
+huggingface_hub==0.25.2
+pytest==8.3.3
+matplotlib==3.10.6

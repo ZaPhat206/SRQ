@@ -1,0 +1,46 @@
+{
+ "experiment": "table3_fly_cifar100_20k",
+ "dataset": "cifar100",
+ "num_tasks": 10,
+ "width": 20000,
+ "synaptic_degree": 300,
+ "coding_level": 0.3,
+ "block_size": 256,
+ "group_size": 64,
+ "panel_size": 128,
+ "encode_batch_size": 256,
+ "evaluation_batch_size": 256,
+ "ridge_lambda": 1000000.0,
+ "budget_fraction": 0.25,
+ "methods": [
+  "exact",
+  "srq_int8",
+  "srq_adaptive"
+ ],
+ "replicates": [
+  {
+   "class_order_seed": 3031,
+   "projection_seed": 5031
+  },
+  {
+   "class_order_seed": 3032,
+   "projection_seed": 5032
+  },
+  {
+   "class_order_seed": 3033,
+   "projection_seed": 5033
+  },
+  {
+   "class_order_seed": 3034,
+   "projection_seed": 5034
+  },
+  {
+   "class_order_seed": 3035,
+   "projection_seed": 5035
+  },
+  {
+   "class_order_seed": 3036,
+   "projection_seed": 5036
+  }
+ ]
+}

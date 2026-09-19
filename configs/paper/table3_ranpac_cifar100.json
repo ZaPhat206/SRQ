@@ -1,0 +1,48 @@
+{
+ "experiment": "table3_ranpac_cifar100",
+ "dataset": "cifar100",
+ "num_tasks": 10,
+ "widths": [
+  10000,
+  20000
+ ],
+ "generated_width": 20000,
+ "ridge_lambda": {
+  "10000": 1000000.0,
+  "20000": 1000000.0
+ },
+ "methods": [
+  "exact",
+  "srq_int8",
+  "srq_adaptive"
+ ],
+ "budget_fraction": 0.25,
+ "encode_batch_size": 256,
+ "evaluation_batch_size": 256,
+ "replicates": [
+  {
+   "class_order_seed": 3031,
+   "projection_seed": 5031
+  },
+  {
+   "class_order_seed": 3032,
+   "projection_seed": 5032
+  },
+  {
+   "class_order_seed": 3033,
+   "projection_seed": 5033
+  },
+  {
+   "class_order_seed": 3034,
+   "projection_seed": 5034
+  },
+  {
+   "class_order_seed": 3035,
+   "projection_seed": 5035
+  },
+  {
+   "class_order_seed": 3036,
+   "projection_seed": 5036
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "experiment": "budget_sensitivity",
+  "dataset": "cifar100",
+  "width": 20000,
+  "ridge_lambda": 1000000.0,
+  "num_tasks": 10,
+  "validation_fraction": 0.2,
+  "validation_streams": [
+    {"stream_id": "s2025", "class_order_seed": 2025, "split_seed": 2025, "projection_seed": 2025},
+    {"stream_id": "s2026", "class_order_seed": 2026, "split_seed": 2026, "projection_seed": 2026},
+    {"stream_id": "s2027", "class_order_seed": 2027, "split_seed": 2027, "projection_seed": 2027}
+  ],
+  "budgets": [0.0, 0.05, 0.10, 0.25, 0.50, 1.0],
+  "block_size": 256,
+  "group_size": 64,
+  "panel_size": 128,
+  "exact_upper_triangle_reference_mb": 877.5,
+  "selection": "factor_mse",
+  "uses_test_set": false
+}

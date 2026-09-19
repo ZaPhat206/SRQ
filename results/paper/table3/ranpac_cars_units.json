@@ -1,0 +1,1193 @@
+{
+ "note": "Result of the run reported in the paper, converted to the schema of this release.",
+ "units": [
+  {
+   "replicate": {
+    "class_order_seed": 1993,
+    "projection_seed": 1993,
+    "ridge_split_seed": 1993
+   },
+   "width": 10000,
+   "method": "exact",
+   "ridge_lambda": 100000.0,
+   "aia": 59.6674772209317,
+   "final_accuracy": 48.51386643452307,
+   "final_state_bytes": 497600784,
+   "total_update_seconds": 2.7465457510002125,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 82.6219512195122,
+     "state_bytes": 483200064
+    },
+    {
+     "task": 2,
+     "accuracy": 71.32963988919667,
+     "state_bytes": 484800144
+    },
+    {
+     "task": 3,
+     "accuracy": 64.76316954404604,
+     "state_bytes": 486400224
+    },
+    {
+     "task": 4,
+     "accuracy": 60.815660685154974,
+     "state_bytes": 488000304
+    },
+    {
+     "task": 5,
+     "accuracy": 57.615204373860976,
+     "state_bytes": 489600384
+    },
+    {
+     "task": 6,
+     "accuracy": 56.38343296327925,
+     "state_bytes": 491200464
+    },
+    {
+     "task": 7,
+     "accuracy": 53.334534967555875,
+     "state_bytes": 492800544
+    },
+    {
+     "task": 8,
+     "accuracy": 51.325074486435625,
+     "state_bytes": 494400624
+    },
+    {
+     "task": 9,
+     "accuracy": 49.97223764575236,
+     "state_bytes": 496000704
+    },
+    {
+     "task": 10,
+     "accuracy": 48.51386643452307,
+     "state_bytes": 497600784
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1993,
+    "projection_seed": 1993,
+    "ridge_split_seed": 1993
+   },
+   "width": 10000,
+   "method": "srq_int8",
+   "ridge_lambda": 100000.0,
+   "aia": 59.56363896301177,
+   "final_accuracy": 48.26514115159806,
+   "final_state_bytes": 150760472,
+   "total_update_seconds": 4.38919777000001,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 82.46951219512195,
+     "state_bytes": 136359752
+    },
+    {
+     "task": 2,
+     "accuracy": 71.19113573407202,
+     "state_bytes": 137959832
+    },
+    {
+     "task": 3,
+     "accuracy": 64.6746347941567,
+     "state_bytes": 139559912
+    },
+    {
+     "task": 4,
+     "accuracy": 60.783034257748774,
+     "state_bytes": 141159992
+    },
+    {
+     "task": 5,
+     "accuracy": 57.6933090341057,
+     "state_bytes": 142760072
+    },
+    {
+     "task": 6,
+     "accuracy": 56.29803586678053,
+     "state_bytes": 144360152
+    },
+    {
+     "task": 7,
+     "accuracy": 53.280461427541454,
+     "state_bytes": 145960232
+    },
+    {
+     "task": 8,
+     "accuracy": 51.23098635722126,
+     "state_bytes": 147560312
+    },
+    {
+     "task": 9,
+     "accuracy": 49.75013881177124,
+     "state_bytes": 149160392
+    },
+    {
+     "task": 10,
+     "accuracy": 48.26514115159806,
+     "state_bytes": 150760472
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1993,
+    "projection_seed": 1993,
+    "ridge_split_seed": 1993
+   },
+   "width": 10000,
+   "method": "srq_adaptive",
+   "ridge_lambda": 100000.0,
+   "aia": 59.67901187259961,
+   "final_accuracy": 48.45168511379182,
+   "final_state_bytes": 162476524,
+   "total_update_seconds": 9.152778370000078,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 82.6219512195122,
+     "state_bytes": 148075804
+    },
+    {
+     "task": 2,
+     "accuracy": 71.32963988919667,
+     "state_bytes": 149675884
+    },
+    {
+     "task": 3,
+     "accuracy": 64.76316954404604,
+     "state_bytes": 151275964
+    },
+    {
+     "task": 4,
+     "accuracy": 60.848287112561174,
+     "state_bytes": 152876044
+    },
+    {
+     "task": 5,
+     "accuracy": 57.64123926060922,
+     "state_bytes": 154476124
+    },
+    {
+     "task": 6,
+     "accuracy": 56.40478223740393,
+     "state_bytes": 156076204
+    },
+    {
+     "task": 7,
+     "accuracy": 53.3886085075703,
+     "state_bytes": 157676284
+    },
+    {
+     "task": 8,
+     "accuracy": 51.34075584130469,
+     "state_bytes": 159276364
+    },
+    {
+     "task": 9,
+     "accuracy": 50.0,
+     "state_bytes": 160876444
+    },
+    {
+     "task": 10,
+     "accuracy": 48.45168511379182,
+     "state_bytes": 162476524
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1994,
+    "projection_seed": 1994,
+    "ridge_split_seed": 1994
+   },
+   "width": 10000,
+   "method": "exact",
+   "ridge_lambda": 100000.0,
+   "aia": 58.157907614988574,
+   "final_accuracy": 48.86208183061808,
+   "final_state_bytes": 497600784,
+   "total_update_seconds": 2.706554598999901,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 77.26597325408618,
+     "state_bytes": 483200064
+    },
+    {
+     "task": 2,
+     "accuracy": 68.45998655010088,
+     "state_bytes": 484800144
+    },
+    {
+     "task": 3,
+     "accuracy": 65.26086956521739,
+     "state_bytes": 486400224
+    },
+    {
+     "task": 4,
+     "accuracy": 59.47587088526686,
+     "state_bytes": 488000304
+    },
+    {
+     "task": 5,
+     "accuracy": 56.96170428607659,
+     "state_bytes": 489600384
+    },
+    {
+     "task": 6,
+     "accuracy": 54.249737670514165,
+     "state_bytes": 491200464
+    },
+    {
+     "task": 7,
+     "accuracy": 51.843235504652824,
+     "state_bytes": 492800544
+    },
+    {
+     "task": 8,
+     "accuracy": 50.1949165757056,
+     "state_bytes": 494400624
+    },
+    {
+     "task": 9,
+     "accuracy": 49.004700027647225,
+     "state_bytes": 496000704
+    },
+    {
+     "task": 10,
+     "accuracy": 48.86208183061808,
+     "state_bytes": 497600784
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1994,
+    "projection_seed": 1994,
+    "ridge_split_seed": 1994
+   },
+   "width": 10000,
+   "method": "srq_int8",
+   "ridge_lambda": 100000.0,
+   "aia": 58.16995908184797,
+   "final_accuracy": 48.78746424574058,
+   "final_state_bytes": 150760472,
+   "total_update_seconds": 3.9191549600000144,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 77.26597325408618,
+     "state_bytes": 136359752
+    },
+    {
+     "task": 2,
+     "accuracy": 68.66173503698722,
+     "state_bytes": 137959832
+    },
+    {
+     "task": 3,
+     "accuracy": 65.26086956521739,
+     "state_bytes": 139559912
+    },
+    {
+     "task": 4,
+     "accuracy": 59.63566634707574,
+     "state_bytes": 141159992
+    },
+    {
+     "task": 5,
+     "accuracy": 57.16459548567081,
+     "state_bytes": 142760072
+    },
+    {
+     "task": 6,
+     "accuracy": 54.144805876180484,
+     "state_bytes": 144360152
+    },
+    {
+     "task": 7,
+     "accuracy": 51.700071581961346,
+     "state_bytes": 145960232
+    },
+    {
+     "task": 8,
+     "accuracy": 50.10135661936691,
+     "state_bytes": 147560312
+    },
+    {
+     "task": 9,
+     "accuracy": 48.97705280619298,
+     "state_bytes": 149160392
+    },
+    {
+     "task": 10,
+     "accuracy": 48.78746424574058,
+     "state_bytes": 150760472
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1994,
+    "projection_seed": 1994,
+    "ridge_split_seed": 1994
+   },
+   "width": 10000,
+   "method": "srq_adaptive",
+   "ridge_lambda": 100000.0,
+   "aia": 58.1511546780943,
+   "final_accuracy": 48.87451809476433,
+   "final_state_bytes": 162476524,
+   "total_update_seconds": 9.414148085000193,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 77.26597325408618,
+     "state_bytes": 148075804
+    },
+    {
+     "task": 2,
+     "accuracy": 68.45998655010088,
+     "state_bytes": 149675884
+    },
+    {
+     "task": 3,
+     "accuracy": 65.26086956521739,
+     "state_bytes": 151275964
+    },
+    {
+     "task": 4,
+     "accuracy": 59.47587088526686,
+     "state_bytes": 152876044
+    },
+    {
+     "task": 5,
+     "accuracy": 56.98706568602587,
+     "state_bytes": 154476124
+    },
+    {
+     "task": 6,
+     "accuracy": 54.22875131164743,
+     "state_bytes": 156076204
+    },
+    {
+     "task": 7,
+     "accuracy": 51.80744452397996,
+     "state_bytes": 157676284
+    },
+    {
+     "task": 8,
+     "accuracy": 50.132543271479804,
+     "state_bytes": 159276364
+    },
+    {
+     "task": 9,
+     "accuracy": 49.01852363837434,
+     "state_bytes": 160876444
+    },
+    {
+     "task": 10,
+     "accuracy": 48.87451809476433,
+     "state_bytes": 162476524
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1995,
+    "projection_seed": 1995,
+    "ridge_split_seed": 1995
+   },
+   "width": 10000,
+   "method": "exact",
+   "ridge_lambda": 100000.0,
+   "aia": 60.34174669887832,
+   "final_accuracy": 48.71284666086308,
+   "final_state_bytes": 497600784,
+   "total_update_seconds": 2.4110735019997946,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 82.83582089552239,
+     "state_bytes": 483200064
+    },
+    {
+     "task": 2,
+     "accuracy": 70.76183939601921,
+     "state_bytes": 484800144
+    },
+    {
+     "task": 3,
+     "accuracy": 64.52732003469211,
+     "state_bytes": 486400224
+    },
+    {
+     "task": 4,
+     "accuracy": 62.64441591784339,
+     "state_bytes": 488000304
+    },
+    {
+     "task": 5,
+     "accuracy": 58.95330938943048,
+     "state_bytes": 489600384
+    },
+    {
+     "task": 6,
+     "accuracy": 56.783068783068785,
+     "state_bytes": 491200464
+    },
+    {
+     "task": 7,
+     "accuracy": 54.62093862815885,
+     "state_bytes": 492800544
+    },
+    {
+     "task": 8,
+     "accuracy": 53.11372549019608,
+     "state_bytes": 494400624
+    },
+    {
+     "task": 9,
+     "accuracy": 50.464181792988775,
+     "state_bytes": 496000704
+    },
+    {
+     "task": 10,
+     "accuracy": 48.71284666086308,
+     "state_bytes": 497600784
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1995,
+    "projection_seed": 1995,
+    "ridge_split_seed": 1995
+   },
+   "width": 10000,
+   "method": "srq_int8",
+   "ridge_lambda": 100000.0,
+   "aia": 60.23438763769481,
+   "final_accuracy": 48.663101604278076,
+   "final_state_bytes": 150760472,
+   "total_update_seconds": 4.151372774999686,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 82.83582089552239,
+     "state_bytes": 136359752
+    },
+    {
+     "task": 2,
+     "accuracy": 70.69320521619767,
+     "state_bytes": 137959832
+    },
+    {
+     "task": 3,
+     "accuracy": 64.35385949696445,
+     "state_bytes": 139559912
+    },
+    {
+     "task": 4,
+     "accuracy": 62.61232349165597,
+     "state_bytes": 141159992
+    },
+    {
+     "task": 5,
+     "accuracy": 58.87634684453566,
+     "state_bytes": 142760072
+    },
+    {
+     "task": 6,
+     "accuracy": 56.67724867724868,
+     "state_bytes": 144360152
+    },
+    {
+     "task": 7,
+     "accuracy": 54.494584837545126,
+     "state_bytes": 145960232
+    },
+    {
+     "task": 8,
+     "accuracy": 53.01960784313726,
+     "state_bytes": 147560312
+    },
+    {
+     "task": 9,
+     "accuracy": 50.11777746986282,
+     "state_bytes": 149160392
+    },
+    {
+     "task": 10,
+     "accuracy": 48.663101604278076,
+     "state_bytes": 150760472
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1995,
+    "projection_seed": 1995,
+    "ridge_split_seed": 1995
+   },
+   "width": 10000,
+   "method": "srq_adaptive",
+   "ridge_lambda": 100000.0,
+   "aia": 60.33840029577759,
+   "final_accuracy": 48.75015545330183,
+   "final_state_bytes": 162476524,
+   "total_update_seconds": 9.247050650000006,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 82.83582089552239,
+     "state_bytes": 148075804
+    },
+    {
+     "task": 2,
+     "accuracy": 70.76183939601921,
+     "state_bytes": 149675884
+    },
+    {
+     "task": 3,
+     "accuracy": 64.52732003469211,
+     "state_bytes": 151275964
+    },
+    {
+     "task": 4,
+     "accuracy": 62.61232349165597,
+     "state_bytes": 152876044
+    },
+    {
+     "task": 5,
+     "accuracy": 58.95330938943048,
+     "state_bytes": 154476124
+    },
+    {
+     "task": 6,
+     "accuracy": 56.76190476190476,
+     "state_bytes": 156076204
+    },
+    {
+     "task": 7,
+     "accuracy": 54.62093862815885,
+     "state_bytes": 157676284
+    },
+    {
+     "task": 8,
+     "accuracy": 53.082352941176474,
+     "state_bytes": 159276364
+    },
+    {
+     "task": 9,
+     "accuracy": 50.47803796591381,
+     "state_bytes": 160876444
+    },
+    {
+     "task": 10,
+     "accuracy": 48.75015545330183,
+     "state_bytes": 162476524
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1996,
+    "projection_seed": 1996,
+    "ridge_split_seed": 1996
+   },
+   "width": 10000,
+   "method": "exact",
+   "ridge_lambda": 100000.0,
+   "aia": 58.98521867589807,
+   "final_accuracy": 48.65066534013182,
+   "final_state_bytes": 497600784,
+   "total_update_seconds": 2.451433730999952,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 78.07807807807808,
+     "state_bytes": 483200064
+    },
+    {
+     "task": 2,
+     "accuracy": 69.21501706484642,
+     "state_bytes": 484800144
+    },
+    {
+     "task": 3,
+     "accuracy": 65.21739130434783,
+     "state_bytes": 486400224
+    },
+    {
+     "task": 4,
+     "accuracy": 62.56046436633344,
+     "state_bytes": 488000304
+    },
+    {
+     "task": 5,
+     "accuracy": 57.6417004048583,
+     "state_bytes": 489600384
+    },
+    {
+     "task": 6,
+     "accuracy": 53.820177289995776,
+     "state_bytes": 491200464
+    },
+    {
+     "task": 7,
+     "accuracy": 53.10642895732037,
+     "state_bytes": 492800544
+    },
+    {
+     "task": 8,
+     "accuracy": 51.35473766640564,
+     "state_bytes": 494400624
+    },
+    {
+     "task": 9,
+     "accuracy": 50.207526286662976,
+     "state_bytes": 496000704
+    },
+    {
+     "task": 10,
+     "accuracy": 48.65066534013182,
+     "state_bytes": 497600784
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1996,
+    "projection_seed": 1996,
+    "ridge_split_seed": 1996
+   },
+   "width": 10000,
+   "method": "srq_int8",
+   "ridge_lambda": 100000.0,
+   "aia": 58.86406907262928,
+   "final_accuracy": 48.46412137793807,
+   "final_state_bytes": 150760472,
+   "total_update_seconds": 3.7862450330002275,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 77.92792792792793,
+     "state_bytes": 136359752
+    },
+    {
+     "task": 2,
+     "accuracy": 69.28327645051195,
+     "state_bytes": 137959832
+    },
+    {
+     "task": 3,
+     "accuracy": 65.08563899868248,
+     "state_bytes": 139559912
+    },
+    {
+     "task": 4,
+     "accuracy": 62.65720735246695,
+     "state_bytes": 141159992
+    },
+    {
+     "task": 5,
+     "accuracy": 57.51518218623482,
+     "state_bytes": 142760072
+    },
+    {
+     "task": 6,
+     "accuracy": 53.6935415787252,
+     "state_bytes": 144360152
+    },
+    {
+     "task": 7,
+     "accuracy": 52.89032955159373,
+     "state_bytes": 145960232
+    },
+    {
+     "task": 8,
+     "accuracy": 51.151135473766644,
+     "state_bytes": 147560312
+    },
+    {
+     "task": 9,
+     "accuracy": 49.972329828444934,
+     "state_bytes": 149160392
+    },
+    {
+     "task": 10,
+     "accuracy": 48.46412137793807,
+     "state_bytes": 150760472
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1996,
+    "projection_seed": 1996,
+    "ridge_split_seed": 1996
+   },
+   "width": 10000,
+   "method": "srq_adaptive",
+   "ridge_lambda": 100000.0,
+   "aia": 58.97578197931328,
+   "final_accuracy": 48.63822907598557,
+   "final_state_bytes": 162476524,
+   "total_update_seconds": 9.467392202000042,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 78.07807807807808,
+     "state_bytes": 148075804
+    },
+    {
+     "task": 2,
+     "accuracy": 69.21501706484642,
+     "state_bytes": 149675884
+    },
+    {
+     "task": 3,
+     "accuracy": 65.21739130434783,
+     "state_bytes": 151275964
+    },
+    {
+     "task": 4,
+     "accuracy": 62.56046436633344,
+     "state_bytes": 152876044
+    },
+    {
+     "task": 5,
+     "accuracy": 57.59109311740891,
+     "state_bytes": 154476124
+    },
+    {
+     "task": 6,
+     "accuracy": 53.820177289995776,
+     "state_bytes": 156076204
+    },
+    {
+     "task": 7,
+     "accuracy": 53.10642895732037,
+     "state_bytes": 157676284
+    },
+    {
+     "task": 8,
+     "accuracy": 51.32341425215348,
+     "state_bytes": 159276364
+    },
+    {
+     "task": 9,
+     "accuracy": 50.207526286662976,
+     "state_bytes": 160876444
+    },
+    {
+     "task": 10,
+     "accuracy": 48.63822907598557,
+     "state_bytes": 162476524
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1997,
+    "projection_seed": 1997,
+    "ridge_split_seed": 1997
+   },
+   "width": 10000,
+   "method": "exact",
+   "ridge_lambda": 100000.0,
+   "aia": 58.92156563463736,
+   "final_accuracy": 48.103469717696804,
+   "final_state_bytes": 497600784,
+   "total_update_seconds": 2.5666980299999977,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 76.12403100775194,
+     "state_bytes": 483200064
+    },
+    {
+     "task": 2,
+     "accuracy": 68.18820224719101,
+     "state_bytes": 484800144
+    },
+    {
+     "task": 3,
+     "accuracy": 63.917071018967796,
+     "state_bytes": 486400224
+    },
+    {
+     "task": 4,
+     "accuracy": 61.76282051282051,
+     "state_bytes": 488000304
+    },
+    {
+     "task": 5,
+     "accuracy": 58.307849133537204,
+     "state_bytes": 489600384
+    },
+    {
+     "task": 6,
+     "accuracy": 56.84166139574109,
+     "state_bytes": 491200464
+    },
+    {
+     "task": 7,
+     "accuracy": 53.82000357845769,
+     "state_bytes": 492800544
+    },
+    {
+     "task": 8,
+     "accuracy": 51.97748944817884,
+     "state_bytes": 494400624
+    },
+    {
+     "task": 9,
+     "accuracy": 50.17305828603074,
+     "state_bytes": 496000704
+    },
+    {
+     "task": 10,
+     "accuracy": 48.103469717696804,
+     "state_bytes": 497600784
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1997,
+    "projection_seed": 1997,
+    "ridge_split_seed": 1997
+   },
+   "width": 10000,
+   "method": "srq_int8",
+   "ridge_lambda": 100000.0,
+   "aia": 58.83885688369337,
+   "final_accuracy": 48.0288521328193,
+   "final_state_bytes": 150760472,
+   "total_update_seconds": 3.9419244399999798,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 76.12403100775194,
+     "state_bytes": 136359752
+    },
+    {
+     "task": 2,
+     "accuracy": 68.18820224719101,
+     "state_bytes": 137959832
+    },
+    {
+     "task": 3,
+     "accuracy": 63.828848698720776,
+     "state_bytes": 139559912
+    },
+    {
+     "task": 4,
+     "accuracy": 61.47435897435897,
+     "state_bytes": 141159992
+    },
+    {
+     "task": 5,
+     "accuracy": 58.2059123343527,
+     "state_bytes": 142760072
+    },
+    {
+     "task": 6,
+     "accuracy": 56.6729917773561,
+     "state_bytes": 144360152
+    },
+    {
+     "task": 7,
+     "accuracy": 53.676865271068166,
+     "state_bytes": 145960232
+    },
+    {
+     "task": 8,
+     "accuracy": 51.94622479287166,
+     "state_bytes": 147560312
+    },
+    {
+     "task": 9,
+     "accuracy": 50.24228160044303,
+     "state_bytes": 149160392
+    },
+    {
+     "task": 10,
+     "accuracy": 48.0288521328193,
+     "state_bytes": 150760472
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1997,
+    "projection_seed": 1997,
+    "ridge_split_seed": 1997
+   },
+   "width": 10000,
+   "method": "srq_adaptive",
+   "ridge_lambda": 100000.0,
+   "aia": 58.9248801696416,
+   "final_accuracy": 48.09103345355055,
+   "final_state_bytes": 162476524,
+   "total_update_seconds": 9.519830238000054,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 76.12403100775194,
+     "state_bytes": 148075804
+    },
+    {
+     "task": 2,
+     "accuracy": 68.18820224719101,
+     "state_bytes": 149675884
+    },
+    {
+     "task": 3,
+     "accuracy": 63.917071018967796,
+     "state_bytes": 151275964
+    },
+    {
+     "task": 4,
+     "accuracy": 61.76282051282051,
+     "state_bytes": 152876044
+    },
+    {
+     "task": 5,
+     "accuracy": 58.307849133537204,
+     "state_bytes": 154476124
+    },
+    {
+     "task": 6,
+     "accuracy": 56.84166139574109,
+     "state_bytes": 156076204
+    },
+    {
+     "task": 7,
+     "accuracy": 53.837895866881375,
+     "state_bytes": 157676284
+    },
+    {
+     "task": 8,
+     "accuracy": 51.97748944817884,
+     "state_bytes": 159276364
+    },
+    {
+     "task": 9,
+     "accuracy": 50.200747611795656,
+     "state_bytes": 160876444
+    },
+    {
+     "task": 10,
+     "accuracy": 48.09103345355055,
+     "state_bytes": 162476524
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1998,
+    "projection_seed": 1998,
+    "ridge_split_seed": 1998
+   },
+   "width": 10000,
+   "method": "exact",
+   "ridge_lambda": 100000.0,
+   "aia": 60.036439594005046,
+   "final_accuracy": 48.50143017037682,
+   "final_state_bytes": 497600784,
+   "total_update_seconds": 2.626559508000014,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 83.87596899224806,
+     "state_bytes": 483200064
+    },
+    {
+     "task": 2,
+     "accuracy": 71.46720757268425,
+     "state_bytes": 484800144
+    },
+    {
+     "task": 3,
+     "accuracy": 65.59792027729637,
+     "state_bytes": 486400224
+    },
+    {
+     "task": 4,
+     "accuracy": 61.83206106870229,
+     "state_bytes": 488000304
+    },
+    {
+     "task": 5,
+     "accuracy": 57.4500379458639,
+     "state_bytes": 489600384
+    },
+    {
+     "task": 6,
+     "accuracy": 55.02402339669939,
+     "state_bytes": 491200464
+    },
+    {
+     "task": 7,
+     "accuracy": 55.04619758351102,
+     "state_bytes": 492800544
+    },
+    {
+     "task": 8,
+     "accuracy": 51.714998440910506,
+     "state_bytes": 494400624
+    },
+    {
+     "task": 9,
+     "accuracy": 49.85455049175786,
+     "state_bytes": 496000704
+    },
+    {
+     "task": 10,
+     "accuracy": 48.50143017037682,
+     "state_bytes": 497600784
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1998,
+    "projection_seed": 1998,
+    "ridge_split_seed": 1998
+   },
+   "width": 10000,
+   "method": "srq_int8",
+   "ridge_lambda": 100000.0,
+   "aia": 60.04182845892932,
+   "final_accuracy": 48.401940057206815,
+   "final_state_bytes": 150760472,
+   "total_update_seconds": 4.269565801999988,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 83.87596899224806,
+     "state_bytes": 136359752
+    },
+    {
+     "task": 2,
+     "accuracy": 71.53482082488168,
+     "state_bytes": 137959832
+    },
+    {
+     "task": 3,
+     "accuracy": 65.64124783362219,
+     "state_bytes": 139559912
+    },
+    {
+     "task": 4,
+     "accuracy": 61.83206106870229,
+     "state_bytes": 141159992
+    },
+    {
+     "task": 5,
+     "accuracy": 57.60182140146724,
+     "state_bytes": 142760072
+    },
+    {
+     "task": 6,
+     "accuracy": 55.14936285773971,
+     "state_bytes": 144360152
+    },
+    {
+     "task": 7,
+     "accuracy": 55.010660980810236,
+     "state_bytes": 145960232
+    },
+    {
+     "task": 8,
+     "accuracy": 51.66822575615841,
+     "state_bytes": 147560312
+    },
+    {
+     "task": 9,
+     "accuracy": 49.702174816456576,
+     "state_bytes": 149160392
+    },
+    {
+     "task": 10,
+     "accuracy": 48.401940057206815,
+     "state_bytes": 150760472
+    }
+   ]
+  },
+  {
+   "replicate": {
+    "class_order_seed": 1998,
+    "projection_seed": 1998,
+    "ridge_split_seed": 1998
+   },
+   "width": 10000,
+   "method": "srq_adaptive",
+   "ridge_lambda": 100000.0,
+   "aia": 60.03749235039392,
+   "final_accuracy": 48.46412137793807,
+   "final_state_bytes": 162476524,
+   "total_update_seconds": 9.644686211999897,
+   "records": [
+    {
+     "task": 1,
+     "accuracy": 83.87596899224806,
+     "state_bytes": 148075804
+    },
+    {
+     "task": 2,
+     "accuracy": 71.46720757268425,
+     "state_bytes": 149675884
+    },
+    {
+     "task": 3,
+     "accuracy": 65.59792027729637,
+     "state_bytes": 151275964
+    },
+    {
+     "task": 4,
+     "accuracy": 61.86386768447837,
+     "state_bytes": 152876044
+    },
+    {
+     "task": 5,
+     "accuracy": 57.4500379458639,
+     "state_bytes": 154476124
+    },
+    {
+     "task": 6,
+     "accuracy": 55.02402339669939,
+     "state_bytes": 156076204
+    },
+    {
+     "task": 7,
+     "accuracy": 55.06396588486141,
+     "state_bytes": 157676284
+    },
+    {
+     "task": 8,
+     "accuracy": 51.69940754599314,
+     "state_bytes": 159276364
+    },
+    {
+     "task": 9,
+     "accuracy": 49.86840282587616,
+     "state_bytes": 160876444
+    },
+    {
+     "task": 10,
+     "accuracy": 48.46412137793807,
+     "state_bytes": 162476524
+    }
+   ]
+  }
+ ]
+}

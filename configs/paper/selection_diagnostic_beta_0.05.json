@@ -1,0 +1,19 @@
+{
+  "experiment": "selection_diagnostic_beta_0.05",
+  "dataset": "cifar100",
+  "width": 20000,
+  "ridge_lambda": 1000000.0,
+  "num_tasks": 10,
+  "validation_fraction": 0.2,
+  "block_size": 256,
+  "group_size": 64,
+  "panel_size": 128,
+  "budget_fraction": 0.05,
+  "random_allocation_seeds": [202501, 202502],
+  "streams": [
+    {"stream_id": "s2025", "class_order_seed": 2025, "split_seed": 2025, "projection_seed": 2025},
+    {"stream_id": "s2026", "class_order_seed": 2026, "split_seed": 2026, "projection_seed": 2026},
+    {"stream_id": "s2027", "class_order_seed": 2027, "split_seed": 2027, "projection_seed": 2027}
+  ],
+  "selection_signals": "factor entries only; no labels, logits, predictions, accuracy, or test data"
+}

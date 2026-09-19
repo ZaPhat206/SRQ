@@ -1,0 +1,342 @@
+{
+ "note": "Result of the run reported in the paper, converted to the schema of this release.",
+ "selected_ridge_lambda": 100000.0,
+ "candidates": [
+  {
+   "ridge_lambda": 0.001,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 0.01,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 0.1,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 1.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 10.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 100.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 1000.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.41531836971077,
+     "srq_aia": 36.82561443673286,
+     "exact_maximum_residual": 1.2612422324309591e-05,
+     "srq_maximum_residual": 0.000432115984220296
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 10000.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 91.74165613755011,
+     "srq_aia": 88.2757283699273,
+     "exact_maximum_residual": 1.1094204637629446e-05,
+     "srq_maximum_residual": 2.865635151764428e-05
+    },
+    {
+     "status": "complete",
+     "exact_aia": 90.32883138490337,
+     "srq_aia": 86.14227360702594,
+     "exact_maximum_residual": 1.045246153807966e-05,
+     "srq_maximum_residual": 2.1663191263945378e-05
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.39313706846988,
+     "srq_aia": 87.19523432406946,
+     "exact_maximum_residual": 1.1309572073514573e-05,
+     "srq_maximum_residual": 3.375030496409076e-05
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 100000.0,
+   "valid": true,
+   "score": 91.14508574192979,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 91.91181515122305,
+     "srq_aia": 91.97432848111642,
+     "exact_maximum_residual": 6.9539955802611075e-06,
+     "srq_maximum_residual": 4.47534437424959e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 90.1484677573029,
+     "srq_aia": 90.28280237263597,
+     "exact_maximum_residual": 6.7689061324927025e-06,
+     "srq_maximum_residual": 3.78326854276103e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.25308047903249,
+     "srq_aia": 91.30002021026789,
+     "exact_maximum_residual": 6.964233762118965e-06,
+     "srq_maximum_residual": 5.061074545179871e-06
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 1000000.0,
+   "valid": true,
+   "score": 90.22336099823524,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 91.01720334790768,
+     "srq_aia": 91.04079983913576,
+     "exact_maximum_residual": 3.1412769203598145e-06,
+     "srq_maximum_residual": 1.8183818547317025e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 89.71480118995211,
+     "srq_aia": 89.72183550367761,
+     "exact_maximum_residual": 3.1557642614643555e-06,
+     "srq_maximum_residual": 1.7509593969987034e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 89.91669162579765,
+     "srq_aia": 89.92883448294052,
+     "exact_maximum_residual": 3.0218614028854063e-06,
+     "srq_maximum_residual": 1.932828684719866e-06
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 10000000.0,
+   "valid": true,
+   "score": 87.6083973428246,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 88.47535051463845,
+     "srq_aia": 88.47535051463845,
+     "exact_maximum_residual": 1.7465516748416121e-06,
+     "srq_maximum_residual": 1.3606331826749275e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 86.80955712330325,
+     "srq_aia": 86.80955712330325,
+     "exact_maximum_residual": 1.7404840946255717e-06,
+     "srq_maximum_residual": 1.3567171738134934e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 87.54028439053207,
+     "srq_aia": 87.54028439053207,
+     "exact_maximum_residual": 1.7135101870735525e-06,
+     "srq_maximum_residual": 1.3535035818053126e-06
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 100000000.0,
+   "valid": true,
+   "score": 83.40419053319403,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 84.27953659515579,
+     "srq_aia": 84.27953659515579,
+     "exact_maximum_residual": 1.5934272141748806e-06,
+     "srq_maximum_residual": 1.2925453708462477e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 82.17832379522783,
+     "srq_aia": 82.17832379522783,
+     "exact_maximum_residual": 1.5652486808903632e-06,
+     "srq_maximum_residual": 1.2986379069724627e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 83.75158620919845,
+     "srq_aia": 83.75783620919844,
+     "exact_maximum_residual": 1.5978274632288958e-06,
+     "srq_maximum_residual": 1.299495677466474e-06
+    }
+   ]
+  }
+ ]
+}

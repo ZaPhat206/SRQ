@@ -1,0 +1,342 @@
+{
+ "note": "Result of the run reported in the paper, converted to the schema of this release.",
+ "selected_ridge_lambda": 1000000.0,
+ "candidates": [
+  {
+   "ridge_lambda": 0.001,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 0.01,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 0.1,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 1.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 10.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 100.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    },
+    {
+     "status": "numerical_failure",
+     "exact_aia": null,
+     "srq_aia": null,
+     "exact_maximum_residual": null,
+     "srq_maximum_residual": null
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 1000.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 90.01006448412699,
+     "srq_aia": 65.61748015873016,
+     "exact_maximum_residual": 9.378441973240115e-06,
+     "srq_maximum_residual": 8.765924364379354e-05
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.0421378968254,
+     "srq_aia": 65.3829365079365,
+     "exact_maximum_residual": 8.684601198183373e-06,
+     "srq_maximum_residual": 6.547661249515177e-05
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.46766369047619,
+     "srq_aia": 65.84686507936507,
+     "exact_maximum_residual": 8.489927495247684e-06,
+     "srq_maximum_residual": 0.00010182229239097057
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 10000.0,
+   "valid": false,
+   "score": null,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 90.94302083333334,
+     "srq_aia": 80.9282738095238,
+     "exact_maximum_residual": 8.02011891209986e-06,
+     "srq_maximum_residual": 1.0051738604636968e-05
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.93265873015874,
+     "srq_aia": 81.49707837301587,
+     "exact_maximum_residual": 7.103267307684291e-06,
+     "srq_maximum_residual": 7.086016018803361e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 92.20720238095238,
+     "srq_aia": 82.40173115079365,
+     "exact_maximum_residual": 6.896297236380633e-06,
+     "srq_maximum_residual": 1.1046293088402664e-05
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 100000.0,
+   "valid": true,
+   "score": 92.11298363095239,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 91.58654265873017,
+     "srq_aia": 91.24034722222223,
+     "exact_maximum_residual": 6.001461770210881e-06,
+     "srq_maximum_residual": 3.965589142545409e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 92.51510912698413,
+     "srq_aia": 92.22432539682539,
+     "exact_maximum_residual": 5.265263553155819e-06,
+     "srq_maximum_residual": 3.7727619115264544e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 92.75288194444445,
+     "srq_aia": 92.35869543650793,
+     "exact_maximum_residual": 5.235700882622041e-06,
+     "srq_maximum_residual": 5.021242675330643e-06
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 1000000.0,
+   "valid": true,
+   "score": 92.49400545634921,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 91.87313492063493,
+     "srq_aia": 91.94282242063493,
+     "exact_maximum_residual": 3.1006818517198553e-06,
+     "srq_maximum_residual": 2.3984290647724925e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 92.77435515873016,
+     "srq_aia": 92.71546130952382,
+     "exact_maximum_residual": 2.8175529678264866e-06,
+     "srq_maximum_residual": 1.4400619290671247e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 92.8437748015873,
+     "srq_aia": 92.81448412698413,
+     "exact_maximum_residual": 3.0146979952405673e-06,
+     "srq_maximum_residual": 2.2336481534940004e-06
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 10000000.0,
+   "valid": true,
+   "score": 91.68692791005292,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 91.18959821428572,
+     "srq_aia": 91.18213293650794,
+     "exact_maximum_residual": 1.9611950392572908e-06,
+     "srq_maximum_residual": 1.0763180515366158e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 91.7822371031746,
+     "srq_aia": 91.78914186507936,
+     "exact_maximum_residual": 1.8749644823401468e-06,
+     "srq_maximum_residual": 1.1002130569465688e-06
+    },
+    {
+     "status": "complete",
+     "exact_aia": 92.08785714285713,
+     "srq_aia": 92.0906001984127,
+     "exact_maximum_residual": 1.999929054363747e-06,
+     "srq_maximum_residual": 1.1343491397043387e-06
+    }
+   ]
+  },
+  {
+   "ridge_lambda": 100000000.0,
+   "valid": true,
+   "score": 89.92257357804233,
+   "units": [
+    {
+     "status": "complete",
+     "exact_aia": 89.38697420634921,
+     "srq_aia": 89.38822420634921,
+     "exact_maximum_residual": 1.6351431213479373e-06,
+     "srq_maximum_residual": 9.06022739194136e-07
+    },
+    {
+     "status": "complete",
+     "exact_aia": 89.98669642857143,
+     "srq_aia": 89.98902281746032,
+     "exact_maximum_residual": 1.6236023157034651e-06,
+     "srq_maximum_residual": 9.130822398318002e-07
+    },
+    {
+     "status": "complete",
+     "exact_aia": 90.39323412698413,
+     "srq_aia": 90.39128968253968,
+     "exact_maximum_residual": 1.6643715525788139e-06,
+     "srq_maximum_residual": 9.153402808963742e-07
+    }
+   ]
+  }
+ ]
+}

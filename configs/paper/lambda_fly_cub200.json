@@ -1,0 +1,46 @@
+{
+ "experiment": "lambda_fly_cub200",
+ "family": "exact_and_srq",
+ "width": 10000,
+ "dataset": "cub200",
+ "num_tasks": 20,
+ "synaptic_degree": 300,
+ "coding_level": 0.3,
+ "block_size": 256,
+ "group_size": 64,
+ "panel_size": 128,
+ "encode_batch_size": 256,
+ "evaluation_batch_size": 256,
+ "ridge_grid": [
+  0.001,
+  0.01,
+  0.1,
+  1.0,
+  10.0,
+  100.0,
+  1000.0,
+  10000.0,
+  100000.0,
+  1000000.0,
+  10000000.0,
+  100000000.0
+ ],
+ "development_replicates": [
+  {
+   "class_order_seed": 2025,
+   "projection_seed": 4201
+  },
+  {
+   "class_order_seed": 2026,
+   "projection_seed": 4202
+  },
+  {
+   "class_order_seed": 2027,
+   "projection_seed": 4203
+  }
+ ],
+ "split_seed": 2025,
+ "outer_fraction": 0.2,
+ "inner_fraction": 0.2,
+ "maximum_solver_relative_residual": 1e-05
+}
