@@ -64,12 +64,18 @@ python scripts/prepare_data.py cub200 --archive CUB_200_2011.tgz
 python scripts/prepare_data.py cars --root <extracted Stanford Cars folder>
 ```
 
-CIFAR-100 comes from torchvision. CUB-200-2011 is the official
-`CUB_200_2011.tgz`. Stanford Cars is the classes-folder mirror, since the
-original Stanford download is no longer served. The backbones are
-`timm/vit_base_patch16_224.augreg2_in21k_ft_in1k` and the torchvision
-IMAGENET1K_V2 ResNet-50. Row order follows `orders/`, so a cache extracted here
-matches the one used for the paper.
+CIFAR-100 is downloaded by torchvision. CUB-200-2011 is the official
+`CUB_200_2011.tgz` of the [Caltech record](https://data.caltech.edu/records/20098),
+and `prepare_cub.py --verify` must report the identity used for the paper.
+Stanford Cars is version 2 of the
+[classes-folder mirror](https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder),
+which is what the reported runs used, since the original Stanford download is
+no longer served; `prepare_cars.py` compares its file manifest with the one used
+for the paper and warns when a re-encoded copy would shift the features. The backbones are
+[`timm/vit_base_patch16_224.augreg2_in21k_ft_in1k`](https://huggingface.co/timm/vit_base_patch16_224.augreg2_in21k_ft_in1k)
+(`model.safetensors`) and the torchvision IMAGENET1K_V2 ResNet-50, both checked
+against a recorded SHA-256. Row order follows `orders/`, so a cache extracted
+here matches the one used for the paper.
 
 ## Reproduce by training
 
